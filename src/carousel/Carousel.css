@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-container {
+    width: 450px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+}
+.window {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.all-pages-container {
+    height: 100%;
+    display: flex;
+}
+.button {
+    background-color: aquamarine;
+    width: 50px;
+    height: 100px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
